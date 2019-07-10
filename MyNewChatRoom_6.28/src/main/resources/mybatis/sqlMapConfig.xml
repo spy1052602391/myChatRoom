@@ -1,0 +1,12 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+
+    <!--这个不加入 也可以运行通过   这里引入一个包名，就是将mapper文件中需要引用com.song.po的地方省略  直接写po包中的类名首字母小写-->
+    <typeAliases>
+        <package name="com.song.po"/>
+    </typeAliases>
+
+</configuration>
